@@ -1,0 +1,144 @@
+@import url(reset.css);
+body {
+    background-image: linear-gradient(to top, black, rgb(43, 0, 43));
+    color: rgb(171, 171, 171);
+}
+header {
+    height: 810px;
+    padding-top: 50px;
+    border-bottom: 4px solid rgb(161, 0, 161);
+}
+.headerCont {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.headerT {
+    text-align: center;
+    font-size: 80px;
+    color: transparent;
+    background: linear-gradient(to left, rgb(90, 0, 90),rgb(202, 0, 202));
+    background-clip: text;
+}
+.headerImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.303);
+    margin-left: 287px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+header div div img{
+    width: 100%;
+    height: 95%;
+    object-fit: contain;
+}
+.headerP {
+    margin: 25px 0px;
+    font-size: 23px;
+    font-weight: 700;
+}
+.headerB {
+    background-color: transparent;
+    font-size: 40px;
+    color: rgb(136, 0, 136);
+    font-weight: 700;
+    padding: 6px 20px;
+    letter-spacing: 2px;
+    border-image: linear-gradient(to bottom,rgb(90, 0, 90),rgb(202, 0, 202));
+    border-image-slice: 10;
+    border-width: 4px;
+    margin-top: 5px;
+}
+section {
+    margin: 25px auto;
+    text-align: center;
+}
+.item {
+    width: 550px;
+    border: 2.5px solid rgb(161, 0, 161);
+    margin: 25px auto;
+    padding: 15px 0px;
+    background-color: rgb(48, 17, 78);
+    border-radius: 100px;
+    box-shadow: inset 3px 3px 8px rgb(27, 27, 27);
+    text-align: justify;
+    text-indent: 5%;
+    font-weight: 500;
+}
+.item span {
+    font-weight: 700;
+    font-size: 18px;
+    color: blueviolet;
+}
+.listaT {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.listaST {
+    font-size: 19px;
+    font-weight: 500;
+}
+.sectionImg {
+    height: 600px;
+    background-image: url(assets/wp4162242.webp);
+    border-top: 4px solid rgb(161, 0, 161);
+    border-bottom: 4px solid rgb(161, 0, 161);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sectionP {
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 6px 6px grey;
+    max-width: 500px;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 1350px;
+}
+.meio {
+    width: 900px;
+}
+#mini {
+    font-size: 40px;
+}
+.mImg {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.303);
+    margin-left: 272px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.imgMP {
+    width: 300px;
+    padding-top: -50px;
+}
+.mP {
+    margin: 25px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+footer {
+    border-top: 4px solid rgb(161, 0, 161);
+    text-align: center;
+}
+.footerImg {
+    width: 325px;
+    margin: 25px 0px;
+}
+.footerP {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.footerP a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
